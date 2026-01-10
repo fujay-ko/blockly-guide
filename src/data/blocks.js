@@ -3,14 +3,14 @@ export const categories = [
     id: "logic",
     name: "1. 邏輯 (Logic)",
     description: "像大腦一樣做判斷，決定對 (True) 還是錯 (False)。",
-    color: "bg-blue-500",
+    color: "bg-teal-500",
     blocks: [
       {
-        name: "如果否則 (If-Else)",
+        name: "如果否則 (if-else)",
         image: "邏輯-如果否則.png",
         desc: "程式的分岔路口。如果條件成立就做A，否則做B。",
         detailed: {
-          title: "如果否則 (If-Else) - 程式守門員",
+          title: "如果否則 (if-else) - 程式守門員",
           param: "鑰匙 (條件)：如果這把鑰匙是對的 (True)，門才會打開。",
           body: "門後的世界：只有鑰匙對了，才會執行這裡面的積木。"
         }
@@ -23,7 +23,7 @@ export const categories = [
       {
         name: "邏輯運算 (Logical Operations)",
         image: "邏輯-邏輯運算.png",
-        desc: "連接多個條件。且(And)表示都要對，或(Or)表示其中一個對就好。"
+        desc: "連接多個條件。且(and)表示都要對，或(or)表示其中一個對就好。"
       },
       {
         name: "布林值 (Boolean)",
@@ -31,7 +31,7 @@ export const categories = [
         desc: "只有「真 (True)」或「假 (False)」兩種結果。"
       },
       {
-        name: "反向 (Not)",
+        name: "反向 (not)",
         image: "邏輯-反向.png",
         desc: "唱反調專用。把真變假，把假變真。"
       }
@@ -74,9 +74,9 @@ export const categories = [
         }
       },
       {
-        name: "中斷 (Break/Continue)",
+        name: "中斷 (break/continue)",
         image: "迴圈-中斷.png",
-        desc: "立刻停下來跳出迴圈 (Break)，或是跳過這次直接做下一次 (Continue)。"
+        desc: "立刻停下來跳出迴圈 (break)，或是跳過這次直接做下一次 (continue)。"
       }
     ]
   },
@@ -84,7 +84,7 @@ export const categories = [
     id: "math",
     name: "3. 數學式 (Math)",
     description: "處理所有跟數字有關的事情。",
-    color: "bg-indigo-500",
+    color: "bg-cyan-500",
     blocks: [
       {
         name: "數字 (Number)",
@@ -94,7 +94,7 @@ export const categories = [
       {
         name: "算術運算 (Arithmetic)",
         image: "數學式-算術運算.png",
-        desc: "加、減、乘、除。"
+        desc: "加、減、乘、除、次方等。"
       },
       {
         name: "單一運算 (Single Operation)",
@@ -117,7 +117,7 @@ export const categories = [
         desc: "檢查是偶數、奇數還是質數。"
       },
       {
-        name: "四捨五入 (Round)",
+        name: "四捨五入 (round)",
         image: "數學式-四捨五入.png",
         desc: "把小數變成整數。"
       },
@@ -142,10 +142,10 @@ export const categories = [
     id: "text",
     name: "4. 文字 (Text)",
     description: "處理文字與句子。",
-    color: "bg-yellow-500",
+    color: "bg-lime-500",
     blocks: [
       {
-        name: "建立文字串",
+        name: "建立字串",
         image: "文字-建立文字串.png",
         desc: "寫一段文字，例如 \"Hello\"。"
       },
@@ -162,12 +162,12 @@ export const categories = [
       {
         name: "輸入提示 (Prompt)",
         image: "文字-輸入提示.png",
-        desc: "跳出視窗問使用者問題。"
+        desc: "「彈出視窗向使用者發問，並取得對方輸入的內容（文字或數字）。」。"
       },
       {
         name: "輸出 (Print)",
         image: "文字-輸出.png",
-        desc: "把結果顯示出來。"
+        desc: "把結果顯示出來，預設是字串。"
       }
     ]
   },
