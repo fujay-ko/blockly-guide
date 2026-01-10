@@ -16,7 +16,7 @@ const AdvancedSection = ({ blocks }) => {
             <div key={index} className="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row border border-indigo-100">
               <div className="md:w-1/3 bg-gray-50 p-8 flex justify-center items-center border-b md:border-b-0 md:border-r border-gray-100">
                 <img 
-                  src={`/images/${block.image}`} 
+                  src={`${import.meta.env.BASE_URL}images/${block.image}`} 
                   alt={block.name} 
                   className="max-w-full max-h-64 object-contain filter drop-shadow-md transform hover:scale-105 transition-transform duration-300" 
                 />
