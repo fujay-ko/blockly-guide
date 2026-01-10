@@ -3,7 +3,7 @@ export const categories = [
     id: "logic",
     name: "1. 邏輯 (Logic)",
     description: "像大腦一樣做判斷，決定對 (True) 還是錯 (False)。",
-    color: "bg-teal-500",
+    color: "bg-indigo-500",
     blocks: [
       {
         name: "如果否則 (if-else)",
@@ -44,31 +44,31 @@ export const categories = [
     color: "bg-green-500",
     blocks: [
       {
-        name: "重複幾次 (Repeat)",
+        name: "重複幾次 (repeat)",
         image: "迴圈-重複幾次.png",
         desc: "指定一個次數，乖乖做完。",
         detailed: {
-          title: "重複幾次 (Repeat) - 自動播放機",
+          title: "重複幾次 (repeat) - 自動播放機",
           param: "播放次數：你填數字幾，它就轉幾圈。",
           body: "要做的事：肚子裡的積木會被重複執行。"
         }
       },
       {
-        name: "條件重複 (While/Until)",
+        name: "條件重複 (while/until)",
         image: "迴圈-條件重複.png",
-        desc: "只要條件符合 (While) 或直到條件符合 (Until)，就一直做。",
+        desc: "只要條件符合 (while) 或直到條件符合 (until)，就一直做。",
         detailed: {
-          title: "條件重複 (While/Until) - 頑固守衛",
-          param: "檢查表：While (當...) 只要對就繼續；Until (直到...) 只要錯就繼續。",
+          title: "條件重複 (while/until) - 頑固守衛",
+          param: "檢查表：while (當...) 只要對就繼續；until (直到...) 只要錯就繼續。",
           body: "重複做的動作：記得要在這裡改變檢查條件，不然會停不下來！"
         }
       },
       {
-        name: "計數循環 (Count with)",
+        name: "計數循環 (count with)",
         image: "迴圈-計數循環.png",
         desc: "像數數一樣，有一個變數帶著你從起點數到終點。",
         detailed: {
-          title: "計數循環 (Count with) - 體育老師",
+          title: "計數循環 (count with) - 體育老師",
           param: "計數設定：從幾開始、到幾結束、每次加多少。",
           body: "每一圈要做的事：可以直接使用計數變數 (i) 來做事。"
         }
@@ -84,7 +84,7 @@ export const categories = [
     id: "math",
     name: "3. 數學式 (Math)",
     description: "處理所有跟數字有關的事情。",
-    color: "bg-cyan-500",
+    color: "bg-violet-500",
     blocks: [
       {
         name: "數字 (Number)",
@@ -142,7 +142,7 @@ export const categories = [
     id: "text",
     name: "4. 文字 (Text)",
     description: "處理文字與句子。",
-    color: "bg-lime-500",
+    color: "bg-emerald-500",
     blocks: [
       {
         name: "建立字串",
