@@ -246,7 +246,12 @@ export const categories = [
       {
         name: "建立函式 (Define Function)",
         image: "函式-建立函式.png",
-        desc: "建立一個可以重複使用的功能，還可以設定輸入參數。"
+        desc: "建立一個可以重複使用的功能，還可以設定輸入參數。",
+        detailed: {
+          title: "建立函式 (Define Function) - 專屬小幫手",
+          param: "輸入名稱 (參數)：小幫手需要的工具或資訊。例如「x」，你可以餵給它任何資料。",
+          body: "任務流程：在「到 做些什麼」裡面放入你要重複執行的動作。一旦定義好，你就可以在別的地方呼叫這個小幫手幫你做事！"
+        }
       },
       {
         name: "帶有返回值的函式 (Return Function)",
