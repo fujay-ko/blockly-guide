@@ -236,5 +236,28 @@ export const categories = [
         desc: "在原本的基礎上增加或減少。"
       }
     ]
+  },
+  {
+    id: "functions",
+    name: "7. 函式 (Functions)",
+    description: "把常用的程式碼包裝起來，隨時呼叫使用。",
+    color: "bg-orange-500",
+    blocks: [
+      {
+        name: "建立函式 (Define Function)",
+        image: "函式-建立函式.png",
+        desc: "建立一個可以重複使用的功能，還可以設定輸入參數。"
+      },
+      {
+        name: "帶有返回值的函式 (Return Function)",
+        image: "函式-帶有返回值的函式.png",
+        desc: "執行完任務後，會回傳一個結果。"
+      },
+      {
+        name: "條件返回 (Conditional Return)",
+        image: "函式-條件返回.png",
+        desc: "在特定條件下，提早結束函式並回傳結果。"
+      }
+    ]
   }
 ];
