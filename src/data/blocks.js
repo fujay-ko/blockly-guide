@@ -43,14 +43,8 @@ export const categories = [
       {
         name: "空值 (null)",
         image: "邏輯-空值.png",
-        desc: "代表「什麼都沒有」或「無效」的狀態。",
+        desc: "代表「什麼都沒有」或「無效」的狀態。藍色邏輯積木。",
         python: "None"
-      },
-      {
-        name: "檢查空值 (is null)",
-        image: "邏輯-檢查空值.png",
-        desc: "檢查一個值是否為 None，或是非 None。",
-        python: "if x is None:     # 是空的\nif x is not None: # 不是空的"
       },
       {
         name: "三元運算 (ternary)",
@@ -299,12 +293,12 @@ export const categories = [
       },
       {
         name: "檢查列表是否為空",
-        image: "邏輯-檢查空值.png",
+        image: "列表-檢查是否為空.png",
         desc: "檢查清單裡是不是什麼都沒有。注意：這是紫色列表積木的功能。",
         python: "if not len(my_list): # 清單長度為 0"
       },
       {
-        name: "取得項目",
+        name: "取得與移除項目",
         image: "列表-取得項目.png",
         desc: "包含：取得 (Get)、取得並移除 (Get and Remove)。",
         python: "item = my_list[0]    # 取得第一項\nitem = my_list.pop(0) # 取得並移除第一項"
