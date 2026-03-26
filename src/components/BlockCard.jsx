@@ -12,7 +12,15 @@ const BlockCard = ({ block }) => {
       </div>
       <div className="p-4">
         <h3 className="font-bold text-lg mb-2 text-gray-800">{block.name}</h3>
-        <p className="text-gray-600 text-sm">{block.desc}</p>
+        <p className="text-gray-600 text-sm mb-4">{block.desc}</p>
+        {block.python && (
+          <div className="mt-2">
+            <span className="text-xs font-semibold text-blue-600 uppercase tracking-wider">Python</span>
+            <pre className="mt-1 p-2 bg-gray-900 text-blue-300 rounded text-xs font-mono overflow-x-auto">
+              <code>{block.python}</code>
+            </pre>
+          </div>
+        )}
       </div>
     </div>
   );
