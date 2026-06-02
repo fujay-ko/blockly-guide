@@ -16,7 +16,7 @@ const BlockCard = ({ block }) => {
         {block.python && (
           <div className="mt-2">
             <span className="text-sm font-semibold text-blue-600 uppercase tracking-wider">Python</span>
-            <pre className="mt-1 p-2 bg-gray-900 text-blue-300 rounded text-xs font-mono overflow-x-auto">
+            <pre className="mt-1 p-2 bg-gray-900 text-blue-300 rounded text-sm font-mono overflow-x-auto">
               <code>{block.python}</code>
             </pre>
           </div>
